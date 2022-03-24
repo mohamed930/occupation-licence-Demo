@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoKufiArabic-SemiBold.ttf">
+            <string>NotoKufiArabic-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="79" id="KGk-i7-Jjw" customClass="InfractionCell" customModule="occupations_licence" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="79"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="294.5" height="79"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="area" translatesAutoresizingMaskIntoConstraints="NO" id="tia-jH-VIQ">
+                        <rect key="frame" x="222" y="6.5" width="65" height="66"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="66" id="RaI-fJ-i0r"/>
+                            <constraint firstAttribute="width" constant="65" id="hde-qE-gQE"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مساحه" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nPN-E1-Shn">
+                        <rect key="frame" x="16" y="13" width="198" height="33"/>
+                        <fontDescription key="fontDescription" name="NotoKufiArabic-SemiBold" family="Noto Kufi Arabic" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020-08-03 03:04 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0dy-GP-mtP">
+                        <rect key="frame" x="16" y="52.5" width="198" height="15.5"/>
+                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="13"/>
+                        <color key="textColor" systemColor="systemGreenColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="0dy-GP-mtP" firstAttribute="trailing" secondItem="nPN-E1-Shn" secondAttribute="trailing" id="Bi8-Ze-MVy"/>
+                    <constraint firstAttribute="bottom" secondItem="0dy-GP-mtP" secondAttribute="bottom" constant="11" id="KRk-Ty-13O"/>
+                    <constraint firstAttribute="trailing" secondItem="tia-jH-VIQ" secondAttribute="trailing" constant="7.5" id="Oxx-JW-l8r"/>
+                    <constraint firstItem="tia-jH-VIQ" firstAttribute="leading" secondItem="nPN-E1-Shn" secondAttribute="trailing" constant="8" symbolic="YES" id="Y0q-Zl-Pg0"/>
+                    <constraint firstItem="tia-jH-VIQ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="b9a-wV-9lX"/>
+                    <constraint firstItem="nPN-E1-Shn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="e3j-0d-J6X"/>
+                    <constraint firstItem="0dy-GP-mtP" firstAttribute="leading" secondItem="nPN-E1-Shn" secondAttribute="leading" id="k96-gD-tYr"/>
+                    <constraint firstItem="nPN-E1-Shn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="lQ1-hV-OS1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="infractionDataLabel" destination="0dy-GP-mtP" id="bm2-gx-eL7"/>
+                <outlet property="infractionImageView" destination="tia-jH-VIQ" id="e3V-IZ-0XZ"/>
+                <outlet property="infractionTypeLabel" destination="nPN-E1-Shn" id="jXK-tW-B99"/>
+            </connections>
+            <point key="canvasLocation" x="18.840579710144929" y="79.352678571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="area" width="55" height="55"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

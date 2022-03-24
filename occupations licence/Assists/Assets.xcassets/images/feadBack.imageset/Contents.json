@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "transparent-business-management-icon-feedback-icon-5db1d77bd91cb0.8543874115719361238893.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "transparent-business-management-icon-feedback-icon-5db1d77bd91cb0.8543874115719361238893@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "transparent-business-management-icon-feedback-icon-5db1d77bd91cb0.8543874115719361238893@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

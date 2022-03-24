@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  occupation
+
+  Created by Mohamed Ali on 10/10/2021.
+  
+*/
+
+"Waiting"                       = "من فضلك انتظر قليلاً";
+"EmailPlaceHolder"              = "ادخل بريدك الالكترونى";
+"UserNamePlaceHolder"           = "ادخل اسم المستخدم";
+"PasswordPlaceHolder"           = "ادخل كلمه المرور";
+"ConfirmPasswordPlaceHolder"    = "ادخل تأكيد كلمه المرور";
+"EmailOrUserName"               = "البريد الالكترونى او اسم المستخدم";
+"Password"                      = "كلمة المرور";
+"UserAdded"                     = "تم اضافه المستخدم بنجاح";
+"PlaceNamePlaceHolder"          = "ادخل اسم المكان الذى تبحث عنه";
+"Cancel"                        = "الغاء الامر";
+"Camera"                        = "الكاميرا";
+"Gallery"                       = "الاستوديو";
+"ShowSucess"                    = "تم تعديل بيانات المستخدم بنجاح";
+"AddOccupationSucess"           = "تم اضافه الاشغال بنجاح";
+"MessageError"                  = "خطا فى ادخال كود التحقق";
+"MessageCodeSuccess"            = "تم ارسال كود التحقق مره اخرى بنجاح";
+"Error"                         = "خطأ فى الاتصال بالانترنت";
+"Sended"                        = "تم ارسال البريد بنجاح";
+"logout"                        = "تسجيل الخروج";
+"logoutMess"                    = "هل انت متأكد من انك تريد تسجل خروجك؟";
+"Error"                         = "خطأ فى تسجيل الخروج من فضلك حاول مره اخرى";
+"PlaceSectionPlaceHolder"       = "من فضلك ادخل نوع الكشك";
+"NotFound"                      = "الاشغال لم يتم ايجاده فى قاعده البيانات";
